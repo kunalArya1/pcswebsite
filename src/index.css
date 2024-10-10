@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .header nav {
+    display: none;
+  }
+  .header button {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+  }
+  .header nav {
+    display: block;
+  }
+  .header button {
+    margin-top: 0;
+  }
+}
