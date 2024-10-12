@@ -9,6 +9,16 @@ import Header from "./Header";
 import HeroSection from "./HeroSection";
 import AboutSection from "./AboutSection";
 import AboutUsSection from "./AboutusSection";
+import WhyRobokido from "./Whyus";
+import PopularCourses from "./PopularCourses";
+import CoursesGrid from "./CoursesGrid";
+import RoboticPrograms from "./OurProgram";
+import ProgramCards from "./ProgramCard";
+import ExplorePrograms from "./ExplorePrograms";
+import InstructorsSection from "./InstructionSection";
+import InstructorsGrid from "./InstructorGrid";
+import LearningSection from "./LearningSection";
+import Footer from "./Footer";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +34,16 @@ function Navbar() {
         <HeroSection />
         <AboutSection />
         <AboutUsSection />
+        <WhyRobokido />
+        <PopularCourses />
+        <CoursesGrid />
+        <RoboticPrograms />
+        <ProgramCards />
+        <ExplorePrograms />
+        <InstructorsSection />
+        <InstructorsGrid />
+        <LearningSection />
+        <Footer />
       </div>
     </>
   );
