@@ -9,7 +9,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center">
           <span className="text-2xl font-bold text-black">Prefer</span>
-          <span className="text-2xl font-bold text-blue-500">Coding.</span>
+          <span className="text-2xl font-bold text-blue-500">Coding</span>
         </div>
 
         {/* Links - Hidden on small screens */}
