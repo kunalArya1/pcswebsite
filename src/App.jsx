@@ -29,7 +29,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="md:pl-14 md:pr-14">
+      <div className="pl-6 pr-6  md:pl-14 md:pr-14">
         <Header />
         <HeroSection />
         <AboutSection />

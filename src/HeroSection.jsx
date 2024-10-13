@@ -15,7 +15,7 @@ const HeroSection = () => {
             Meets Fun and <br />{" "}
             <span className="text-blue-600">Innovation</span>{" "}
           </h1>
-          <p className="text-gray-600 mb-8 pl-[6px]">
+          <p className="text-gray-600 mb-8 pl-[6px] text-center md:text-left">
             Elevate your Web Development skills and unlock new career
             <br /> opportunities with expert-led full stack training.
           </p>
