@@ -33,16 +33,16 @@ function Navbar() {
         <Header />
         <HeroSection />
         <AboutSection />
-        <AboutUsSection />
+        {/* <AboutUsSection /> */}
         <WhyRobokido />
         <PopularCourses />
         <CoursesGrid />
-        <RoboticPrograms />
+        {/*<RoboticPrograms />
         <ProgramCards />
-        <ExplorePrograms />
+        <ExplorePrograms /> */}
         <InstructorsSection />
         <InstructorsGrid />
-        <LearningSection />
+        {/* <LearningSection /> */}
         <Footer />
       </div>
     </>

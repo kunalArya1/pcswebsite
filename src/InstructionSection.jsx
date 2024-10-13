@@ -8,12 +8,12 @@ const InstructorsSection = () => {
           Our Instructors
         </h4>
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Meet Our Inspiring Robotic Course Instructors
+          Meet Our Inspiring Course Instructors
         </h2>
         <p className="text-gray-600 text-base md:text-lg">
-          Pulvinar nunc eget tincidunt id urna diam scelerisque cursus. Quis
-          nunc pharetra arcu lectus nisl. Tortor vulputate sed maecenas rhoncus
-          viverra purus.
+          Our instructors are industry experts with years of experience in web
+          development and teaching. They are passionate about guiding students
+          through every step of their learning journey.
         </p>
       </div>
     </section>

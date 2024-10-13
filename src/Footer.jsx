@@ -2,20 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 py-8 px-4 md:px-16 lg:px-24">
+    <footer className="bg-gray-50 py-8 px-4 md:px-0 lg:px-5">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
-        <div className="mb-6 md:mb-0">
-          <h2 className="text-2xl font-semibold">
-            Robo<span className="text-blue-600">Kido</span>
-          </h2>
-          <p className="text-gray-600 mt-2">
-            Pulvinar nunc eget tincidunt id urna diam scelerisque cursus. Quis
-            nunc pharetra arcu lectus nisl. Risus hendrerit consequat aliquet
-            erat ullamcorper diam. Tortor vulputate sed maecenas rhoncus viverra
-            purus.
-          </p>
-        </div>
-        <div className="flex flex-col md:flex-row mt-8 md:mt-0 md:space-x-12 space-y-6 md:space-y-0">
+        <div className="flex flex-col  md:flex-row gap-[30%] mt-8 md:mt-0 md:space-x-12 space-y-6 md:space-y-0">
           <div>
             <h3 className="text-lg font-medium">Company</h3>
             <ul className="mt-2 space-y-2">
@@ -34,11 +23,7 @@ const Footer = () => {
                   Courses
                 </a>
               </li>
-              <li>
-                <a href="/" className="text-gray-600 hover:text-gray-800">
-                  Programs
-                </a>
-              </li>
+              <li></li>
             </ul>
           </div>
           <div>
@@ -46,22 +31,17 @@ const Footer = () => {
             <ul className="mt-2 space-y-2">
               <li>
                 <a href="/" className="text-gray-600 hover:text-gray-800">
-                  Basic Robotic
+                  MERN Stack
                 </a>
               </li>
               <li>
                 <a href="/" className="text-gray-600 hover:text-gray-800">
-                  Robo Explorers
+                  Frontend Development
                 </a>
               </li>
               <li>
                 <a href="/" className="text-gray-600 hover:text-gray-800">
-                  Coding Adventures
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-gray-600 hover:text-gray-800">
-                  Tech Builders
+                  Backend Development
                 </a>
               </li>
             </ul>
@@ -84,13 +64,13 @@ const Footer = () => {
       <div className="mt-8 border-t border-gray-200 pt-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-600 text-sm">
-            Feel free to call us in working hours Mon - Fri (8:00 - 16:00). Our
-            team will be happy to help answer your queries
+            Feel free to call us. Our team will be happy to help answer your
+            queries
           </p>
           <div className="mt-4 md:mt-0">
             <p className="text-gray-600 text-sm mb-1">
-              <a href="tel:+1333000000" className="hover:underline">
-                +1 (333) 000-0000
+              <a href="tel:+916263873264" className="hover:underline">
+                +91 6263873264
               </a>
             </p>
             <div className="flex space-x-3 text-gray-600">
@@ -114,7 +94,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-          <p>© 2023 Robokido</p>
+          <p>© 2024 Prefer Coding Secret</p>
           <p className="flex space-x-4 mt-2 md:mt-0">
             <a href="/" className="hover:underline">
               Terms of Use
@@ -123,7 +103,7 @@ const Footer = () => {
               Privacy Policy
             </a>
           </p>
-          <p>Design by TokoTema</p>
+          <p>Design by SecretCodeWave</p>
         </div>
       </div>
     </footer>

@@ -10,10 +10,10 @@ const PopularCourses = () => {
             Popular Courses
           </h2>
           <p className="text-gray-600">
-            Pulvinar nunc eget tincidunt id urna diam scelerisque cursus. Quis
-            nunc pharetra arcu lectus nisl. Risus hendrerit consequat aliquet
-            erat ullamcorper diam. Tortor vulputate sed maecenas rhoncus viverra
-            purus.
+            Our most popular course, the MERN stack, offers in-depth training in
+            MongoDB, Express, React, and Node.js. With hands-on projects and
+            real-world examples, students master both frontend and backend
+            development.
           </p>
         </div>
 

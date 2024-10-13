@@ -1,15 +1,24 @@
 import React from "react";
+import kunalimg from "./assets/kunal.jpg";
+import shravanimg from "./assets/shravani.jpg";
+import Aakarshimg from "./assets/Aakarsh.jpg";
 
 const instructors = [
-  { name: "Ethan Brown", role: "Robotics Instructor" },
-  { name: "Sophie Patel", role: "Robotics Instructor" },
-  { name: "Lucas Clark", role: "Robotics Instructor" },
+  { name: "Aakarsh Sahu", role: "Worked at DronaHQ", imglink: Aakarshimg },
+  { name: "Kunal Kumar Arya", role: "Working at TCS", imglink: kunalimg },
+  { name: "Shravani Kuna", role: "Working at DevRabbit", imglink: shravanimg },
 ];
 
-const InstructorCard = ({ name, role }) => (
+const InstructorCard = ({ name, role, imglink }) => (
   <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center transition-transform transform hover:scale-105 duration-300">
     {/* Image placeholder */}
-    <div className="bg-gray-800 w-full h-48 mb-4 rounded-md"></div>
+    <div className="bg-gray-800 w-full h-48 mb-4 rounded-md">
+      <img
+        className="h-full w-full object-fill rounded-lg"
+        src={imglink}
+        alt=""
+      />
+    </div>
 
     {/* Name and role */}
     <h3 className="text-xl font-semibold text-gray-900 mb-1">{name}</h3>

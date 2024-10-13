@@ -8,8 +8,8 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
-          <span className="text-2xl font-bold text-black">Robo</span>
-          <span className="text-2xl font-bold text-blue-500">Kido</span>
+          <span className="text-2xl font-bold text-black">Prefer</span>
+          <span className="text-2xl font-bold text-blue-500">Coding.</span>
         </div>
 
         {/* Links - Hidden on small screens */}
@@ -23,12 +23,7 @@ const Header = () => {
           <a href="#" className="text-black hover:text-blue-500">
             Courses
           </a>
-          <a href="#" className="text-black hover:text-blue-500">
-            Programs
-          </a>
-          <a href="#" className="text-black hover:text-blue-500">
-            Pricing
-          </a>
+
           <a href="#" className="text-black hover:text-blue-500">
             Contact Us
           </a>
@@ -79,7 +74,11 @@ const Header = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`md:hidden ${isOpen ? "block" : "hidden"} absolute bg-white  pb-20 w-full`}>
+      <div
+        className={`md:hidden ${
+          isOpen ? "block" : "hidden"
+        } absolute bg-white  pb-20 w-full`}
+      >
         <div className="flex flex-col space-y-4 text-center">
           <a href="#" className="text-black hover:text-blue-500">
             Home
