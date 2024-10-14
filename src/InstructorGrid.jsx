@@ -1,10 +1,10 @@
 import React from "react";
 import kunalimg from "./assets/kunal.jpg";
 import shravanimg from "./assets/shravani.jpg";
-// import Aakarshimg from "./assets/Aakarsh.jpg";
+import Aakarshimg from "./assets/Aakarsh.jpg";
 
 const instructors = [
-  { name: "Aakarsh Sahu ", role: "Worked at DronaHQ",  },
+  { name: "Aakarsh Sahu ", role: "Worked at DronaHQ", imglink: Aakarshimg },
   { name: "Kunal Kumar Arya", role: "Working at TCS", imglink: kunalimg },
   { name: "Shravani Kuna", role: "Working at DevRabbit", imglink: shravanimg },
 ];
